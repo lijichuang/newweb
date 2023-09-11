@@ -9,7 +9,7 @@ googleAnalytics: UA-FAKE
 hasCJKLanguage: yes
 languageCode: cn
 theme: hugo-theme-tokiwa
-title: Hugo Themes
+title: My Website
 markup:
   goldmark:
     renderer:
