@@ -1,0 +1,62 @@
+DefaultContentLanguage: en
+author: He Yeshuang
+baseURL: https://example.com/
+copyright: Copyright © 2008–2019
+disqusShortname: YOURSHORTNAME
+enableInlineShortcodes: yes
+footnoteReturnLinkContents: ^
+googleAnalytics: UA-FAKE
+hasCJKLanguage: yes
+languageCode: cn
+theme: hugo-theme-tokiwa
+title: Hugo Themes
+markup:
+  goldmark:
+    renderer:
+      unsafe: yes
+  highlight:
+    style: monokailight
+params:
+  bannerFont: fonts/exampleFont
+  description: "Tokiwa-iro is the theme color of this site.\r\n"
+  env: production
+  favicon: img/favicon-32x32.png
+  fuse: yes
+  math: yes
+  postDateFormat: 2006-1-2
+  useChineseFonts: yes
+menu:
+  main:
+    - identifier: post
+      name: Posts
+      url: /post/
+      weight: 1
+    - name: Tags
+      url: /tags/
+      weight: 2
+    - name: Categories
+      url: /categories/
+      weight: 2
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 3
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+social:
+  bilibili: http://example.com/
+  github: https://github.com/
+  gitlab: https://gitlab.com/
+  instagram: http://example.com/
+  mail: mailto:anon@example.com
+  twitter: https://twitter.com/
+  weibo: http://example.com/
+  youtube: https://youtube.com/
+  zhihu: http://example.com/
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
